@@ -64,7 +64,7 @@
 
       <!-- *** -->
 
-      <div>
+      <div data-test="roadmap">
         <h3 class="text-bold text-h5">Development Roadmap</h3>
         <div class="q-pa-md text-body1" style="max-width: 100%">
           <q-list bordered class="rounded-borders">

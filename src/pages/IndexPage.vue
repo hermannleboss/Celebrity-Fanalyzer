@@ -17,9 +17,9 @@
   <q-page class="q-pa-md">
     <section class="text-center">
       <h2 class="q-my-sm text-h6">Welcome to Celebrity Fanalyzer!</h2>
-      <RouterLink to="month">
+      <RouterLink to="month" >
         <p class="text-body1">Take a look at this month's competition!</p>
-        <q-img :src="monthPrompt?.image" spinner-color="primary" style="border: 3px solid #e54757; border-radius: 12px" />
+        <q-img :src="monthPrompt?.image" spinner-color="primary" style="border: 3px solid #e54757; border-radius: 12px" data-test="month-link"/>
       </RouterLink>
       <p class="q-my-md text-body1">
         Question of the Month:
@@ -64,7 +64,7 @@
 
       <!-- *** -->
 
-      <div>
+      <div data-test="roadmap">
         <h3 class="text-bold text-h5">Development Roadmap</h3>
         <div class="q-pa-md text-body1" style="max-width: 100%">
           <q-list bordered class="rounded-borders">

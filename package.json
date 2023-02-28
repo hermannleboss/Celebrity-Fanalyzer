@@ -11,6 +11,8 @@
     "lint": "eslint --ext .js,.vue ./",
     "test": "vitest",
     "test:unit:coverage": "vitest run --coverage",
+    "cy:open": "cypress open",
+    "cy:run": "cypress run",
     "emulators": "firebase emulators:start --project celebrityfanalizer --import emulatorData"
   },
   "dependencies": {
